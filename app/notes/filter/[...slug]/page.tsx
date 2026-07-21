@@ -24,11 +24,11 @@ export async function generateMetadata({
       openGraph: {
         title: 'Notes - All Tags',
         description: 'Browse notes tagged with all tags. NoteHub allows you to filter and view notes based on specific tags for better organization.',
-        url: `${process.env.SITE_URL}/notes/filter/${tag}`,
+        url: `https://08-zustand-eight-self.vercel.app/notes/filter/${tag}`,
         siteName: 'NoteHub',
         images: [
           {
-            url: `${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`,
+            url: 'https://ac.goit.global/fullstack/react/og-meta.jpg',
             width: 1200,
             height: 630,
             alt: `Notes - All Tags`,
@@ -40,7 +40,7 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title: 'Notes - All Tags',
         description: 'Browse notes tagged with all tags. NoteHub allows you to filter and view notes based on specific tags for better organization.',
-        images: [`${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`],
+        images: ['https://ac.goit.global/fullstack/react/og-meta.jpg'],
       },
     };
   }
@@ -51,11 +51,11 @@ export async function generateMetadata({
     openGraph: {
       title: `Notes - ${tag}`,
       description: `Browse notes tagged with ${tag} tags. NoteHub allows you to filter and view notes based on specific tags for better organization.`,
-      url: `${process.env.SITE_URL}/notes/filter/${tag}`,
+      url: `https://08-zustand-eight-self.vercel.app/notes/filter/${tag}`,
       siteName: 'NoteHub',
       images: [
         {
-          url: `${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`,
+          url: 'https://ac.goit.global/fullstack/react/og-meta.jpg',
           width: 1200,
           height: 630,
           alt: `Notes - ${tag}`,
@@ -67,7 +67,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: `Notes - ${tag}`,
       description: `Browse notes tagged with ${tag} tags. NoteHub allows you to filter and view notes based on specific tags for better organization.`,
-      images: [`${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`],
+      images: ['https://ac.goit.global/fullstack/react/og-meta.jpg'],
     },
   };
 }

@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     title: 'NoteHub',
     description:
       'A simple and efficient application designed for managing personal notes.',
-    url: `${process.env.SITE_URL}`,
+    url: `https://08-zustand-eight-self.vercel.app/`,
     siteName: 'NoteHub',
     images: [
       {
-        url: `${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`,
+        url: 'https://ac.goit.global/fullstack/react/og-meta.jpg',
         width: 1200,
         height: 630,
         alt: 'NoteHub',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: 'NoteHub',
     description:
       'A simple and efficient application designed for managing personal notes.',
-    images: [`${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`],
+    images: ['https://ac.goit.global/fullstack/react/og-meta.jpg'],
   },
 };
 

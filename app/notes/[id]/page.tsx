@@ -23,14 +23,14 @@ export async function generateMetadata({
     openGraph: {
       title: note.title,
       description: `${note.content.slice(0, 120)}...`,
-      url: `${process.env.SITE_URL}/notes/${id}`,
+      url: `https://08-zustand-eight-self.vercel.app/notes/${id}`,
       siteName: 'NoteHub',
       images: [
         {
-          url: `${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`,
+          url: 'https://ac.goit.global/fullstack/react/og-meta.jpg',
           width: 1200,
           height: 630,
-          alt: `NOte: ${note.title}`,
+          alt: `Note: ${note.title}`,
         },
       ],
       type: 'article',
@@ -39,7 +39,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: note.title,
       description: `${note.content.slice(0, 120)}...`,
-      images: [`${process.env.IMAGES_URL}/fullstack/react/og-meta.jpg`],
+      images: ['https://ac.goit.global/fullstack/react/og-meta.jpg'],
     },
   };
 }
